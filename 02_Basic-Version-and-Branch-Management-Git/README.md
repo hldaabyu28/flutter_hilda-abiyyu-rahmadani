@@ -16,8 +16,8 @@ git merupakan salah satu version control system untuk mengembangkan software sec
         - git branch --D nama branch untuk menghapus branch yang ada 
 
 2. Tahapan dalam the steaging aria 
-   - working derectory sebelum melakukan perubahan kemudian git add 
-   - staging area dimana inisiasi untuk melakukan git commit 
+   - working derectory terletak di bagian local sebelum melakukan git add 
+   - staging area menegelompokkan file dimana inisiasi untuk melakukan sebelum git commit 
    - kemudian untuk meng up ke repository menggunakan git push 
 
 3. management conflic mennggunakan github desktop merge dengan code yang sama dengan branch yang lain  
