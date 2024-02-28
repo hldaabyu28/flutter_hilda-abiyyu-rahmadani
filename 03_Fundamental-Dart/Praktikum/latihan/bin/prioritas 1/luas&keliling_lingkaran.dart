@@ -16,7 +16,7 @@ class Lingkaran {
   }
   //rumus hitung luas di dalam class 
   double hitungLuas() {
-    return 22/7 * pi* jariJari;
+    return pi* jariJari;
   }
 }
 
