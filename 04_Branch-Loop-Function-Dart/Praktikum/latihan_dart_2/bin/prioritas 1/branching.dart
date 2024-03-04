@@ -1,7 +1,6 @@
-// function main
-void main (){
-  // deklarasi variabel dan inisiasi nilai 
-  int nilai = 80 ;
+import 'dart:io';
+
+void tampilkanNilai(int nilai) {
   // switch case dengan mencari inputan nilai dan hasil yang akan di print  
  
   switch (nilai){
@@ -15,7 +14,12 @@ void main (){
     print("Nilai C");
     break;
     default:
-    print("");
+    print("Nilai tidak ada");
 
   }
+}
+
+void main() {
+  // Memanggil fungsi yang menggunakan switch case dan menambahkan nilai
+  tampilkanNilai(90);
 }
