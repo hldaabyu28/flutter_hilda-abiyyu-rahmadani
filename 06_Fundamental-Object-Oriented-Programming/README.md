@@ -6,7 +6,7 @@
 
 penggunaan class 
 
-``
+```
 class Pohon{
     //property
     //method
@@ -14,7 +14,8 @@ class Pohon{
 
 Membuat objek 
 
-`` void main() {
+```
+ void main() {
     var P = Pohon();
 }
 
@@ -23,7 +24,7 @@ Membuat objek
 
 Penggunaan Property 
 
-``
+```
 
 class Pohon {
     var nama = 'Beringin' ;
@@ -32,6 +33,7 @@ class Pohon {
 
 Mengakses Property
 
+```
 void main () {
     var P = Pohon();
     print(P.nama);
@@ -41,7 +43,7 @@ void main () {
 
 Penggunaan Method 
 
-``
+```
 
 class Pohon {
     String Tropis () {
@@ -51,7 +53,7 @@ class Pohon {
 
 Mengakses Method 
 
-``
+```
 void main () {
     String P = Pohon();
     P.Tropis();
