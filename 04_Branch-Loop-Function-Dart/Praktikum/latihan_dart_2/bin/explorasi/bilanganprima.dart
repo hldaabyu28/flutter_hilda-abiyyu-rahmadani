@@ -16,7 +16,7 @@ bool prima(int number) {
 
 // function main
 void main() {
-  int bilangan = 9; // bilangan yang ingin di cek 
+  int bilangan = 2; // bilangan yang ingin di cek 
 
   //percabangan 
   if (prima(bilangan)) {

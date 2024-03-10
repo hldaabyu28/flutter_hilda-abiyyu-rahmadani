@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   // deklarasi variabel dan inisiasi nilai
-  int tinggi = 10 ;
+  int tinggi = 8 ;
 
   int alas = 15 ;
 

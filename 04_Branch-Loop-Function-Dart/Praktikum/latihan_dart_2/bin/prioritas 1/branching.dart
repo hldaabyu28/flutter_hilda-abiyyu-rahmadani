@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void tampilkanNilai(int nilai) {
+void tampilkanNilai(double nilai) {
   // switch case dengan mencari inputan nilai dan hasil yang akan di print  
  
   switch (nilai){
@@ -21,5 +21,5 @@ void tampilkanNilai(int nilai) {
 
 void main() {
   // Memanggil fungsi yang menggunakan switch case dan menambahkan nilai
-  tampilkanNilai(90);
+  tampilkanNilai(90.0);
 }
