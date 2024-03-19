@@ -102,7 +102,6 @@ class Profile extends StatelessWidget {
       body: Center(
         child: Text(email),
       ),
-
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: const Color.fromARGB(255, 90, 86, 94),
         items: const [
