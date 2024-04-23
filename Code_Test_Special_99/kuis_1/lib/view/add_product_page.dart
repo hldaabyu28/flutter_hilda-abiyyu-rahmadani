@@ -29,17 +29,7 @@ class AddProductPage extends StatelessWidget {
               decoration: InputDecoration(labelText: 'Price'),
             ),
             SizedBox(height: 10),
-            // Dropdown for selecting category
-            DropdownButtonFormField(
-              value: addProductViewModel.category,
-              decoration: InputDecoration(labelText: 'Category'),
-              items: [
-                DropdownMenuItem(child: Text('Food'), value: 'Food'),
-                DropdownMenuItem(child: Text('Electronic'), value: 'Electronic'),
-                DropdownMenuItem(child: Text('Clothing'), value: 'Clothing'),
-              ],
-              onChanged: (value) => addProductViewModel.setCategory(value.toString()),
-            ),
+           
             SizedBox(height: 10),
             TextField(
               onChanged: (value) => addProductViewModel.setSeller(value),

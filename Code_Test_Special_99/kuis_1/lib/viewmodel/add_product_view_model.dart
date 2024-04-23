@@ -1,4 +1,4 @@
-// viewmodel/add_product_view_model.dart
+
 import 'package:flutter/material.dart';
 import '../models/product.dart';
 

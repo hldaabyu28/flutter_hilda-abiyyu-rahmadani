@@ -70,9 +70,9 @@ class ListProductPage extends StatelessWidget {
           switch (index) {
             case 0:
               Navigator.popUntil(context, ModalRoute.withName('/'));
-              break; // Home page
+              break; 
             case 1:
-              break; // List Product page, do nothing
+              break; 
             case 2:
               Navigator.pushNamed(context, '/profile');
               break;
