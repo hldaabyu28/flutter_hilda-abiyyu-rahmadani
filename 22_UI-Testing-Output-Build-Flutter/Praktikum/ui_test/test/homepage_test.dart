@@ -12,14 +12,16 @@ import 'package:ui_test/homepage.dart';
 import 'package:ui_test/main.dart';
 
 void main() {
-  testWidgets('halaman harus menampilkan text', (WidgetTester tester) async {
+  testWidgets('halaman harus menampilkan text', (WidgetTester widgetTester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(
+    await widgetTester.pumpWidget(
       MaterialApp(
         home: HomePage(),
       )
     );
-    
+    expect(find.byType(AppBar), findsOneWidget);
     expect(find.text('Create New Contact'), findsOneWidget);
+    
+    await widgetTester.tap(find.byIcon(Icons.contacts));
   });
 }

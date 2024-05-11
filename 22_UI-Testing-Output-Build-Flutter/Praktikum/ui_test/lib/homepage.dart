@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
@@ -31,6 +32,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        key: Key('Contact App bar'),
         title: const Text('Contact', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 65, 33, 243),
@@ -50,7 +52,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
-      const Text(
+      const Text(key: Key('Create New Contact') ,
         'Create New Contact',
         style: TextStyle(
           fontSize: 20.0,
@@ -279,7 +281,7 @@ Widget buildListContact(BuildContext context) {
     padding: const EdgeInsets.all(10.0),
     child: Column(
       children: [
-        const Text('Contact List' , style: TextStyle(
+        const Text(key: Key('Contact List')  ,'Contact List' , style: TextStyle(
           fontSize: 22,
           fontWeight: FontWeight.bold
         )),
